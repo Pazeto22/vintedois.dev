@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light {
+  --surface-1: linear-gradient(
+      0deg,
+      rgba(var(--secondary), 0.03),
+      rgba(var(--secondary), 0.03)
+    ),
+    rgb(var(--surface));
+  --surface-2: linear-gradient(
+      0deg,
+      rgba(var(--secondary), 0.06),
+      rgba(var(--secondary), 0.06)
+    ),
+    rgb(var(--surface));
+  --surface-3: linear-gradient(
+      0deg,
+      rgba(var(--secondary), 0.09),
+      rgba(var(--secondary), 0.09)
+    ),
+    rgb(var(--surface));
+  --surface-4: linear-gradient(
+      0deg,
+      rgba(var(--secondary), 0.12),
+      rgba(var(--secondary), 0.12)
+    ),
+    rgb(var(--surface));
+  --surface-5: linear-gradient(
+      0deg,
+      rgba(var(--secondary), 0.15),
+      rgba(var(--secondary), 0.15)
+    ),
+    rgb(var(--surface));
+  --surface-elevated-1: #fff;
+  --surface-elevated-2: #fff;
+  --surface-elevated-3: #fff;
+  --surface-elevated-4: #fff;
+  --surface-elevated-5: #fff;
+}
+
+.dark {
+  --surface-1: linear-gradient(
+      0deg,
+      rgba(var(--secondary), 0.03),
+      rgba(var(--secondary), 0.03)
+    ),
+    rgb(var(--surface));
+  --surface-2: linear-gradient(
+      0deg,
+      rgba(var(--secondary), 0.06),
+      rgba(var(--secondary), 0.06)
+    ),
+    rgb(var(--surface));
+  --surface-3: linear-gradient(
+      0deg,
+      rgba(var(--secondary), 0.09),
+      rgba(var(--secondary), 0.09)
+    ),
+    rgb(var(--surface));
+  --surface-4: linear-gradient(
+      0deg,
+      rgba(var(--secondary), 0.12),
+      rgba(var(--secondary), 0.12)
+    ),
+    rgb(var(--surface));
+  --surface-5: linear-gradient(
+      0deg,
+      rgba(var(--secondary), 0.15),
+      rgba(var(--secondary), 0.15)
+    ),
+    rgb(var(--surface));
+  --surface-elevated-1: var(--surface-1);
+  --surface-elevated-2: var(--surface-2);
+  --surface-elevated-3: var(--surface-3);
+  --surface-elevated-4: var(--surface-4);
+  --surface-elevated-5: var(--surface-5);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-surface typography-body-md;
+}
+
+a {
+  @apply inline-flex;
+}
+
+img,
+svg,
+a,
+button,
+header,
+footer {
+  @apply select-none;
+}
