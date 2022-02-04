@@ -1,0 +1,12 @@
+.containerBase {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 100vw;
+  width: 100%;
+
+  @media (min-width: 1151.99px) {
+    width: 100%;
+    padding: auto;
+    max-width: 854px;
+  }
+}

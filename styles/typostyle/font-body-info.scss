@@ -1,0 +1,37 @@
+$body-i-size-mobile: 10px;
+$body-i-lh-mobile: 14px;
+$body-i-size-desk: 12px;
+$body-i-lh-desk: 16px;
+
+.body-i {
+  font-size: $body-i-size-mobile;
+  line-height: $body-i-lh-mobile;
+  font-weight: 400;
+
+  @media (min-width: 1151.99px) {
+    font-size: $body-i-size-desk;
+    line-height: $body-i-lh-desk;
+  }
+}
+
+.body-il {
+  font-size: $body-i-size-mobile;
+  line-height: $body-i-lh-mobile;
+  font-weight: 300;
+
+  @media (min-width: 1151.99px) {
+    font-size: $body-i-size-desk;
+    line-height: $body-i-lh-desk;
+  }
+}
+
+.body-ib {
+  font-size: $body-i-size-mobile;
+  line-height: $body-i-lh-mobile;
+  font-weight: 700;
+
+  @media (min-width: 1151.99px) {
+    font-size: $body-i-size-desk;
+    line-height: $body-i-lh-desk;
+  }
+}

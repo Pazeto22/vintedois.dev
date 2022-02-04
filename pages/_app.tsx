@@ -3,8 +3,12 @@ import { AppProps } from "next/app";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
-import "swiper/css/bundle";
-import "../tailwind.source.css";
+import "../styles/globals.scss";
+
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
 
 function App({ Component, pageProps }: AppProps) {
   return (
@@ -14,7 +18,7 @@ function App({ Component, pageProps }: AppProps) {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Início | App</title>
+        <title>VinteDois.dev</title>
       </Head>
 
       <Component {...pageProps} />
