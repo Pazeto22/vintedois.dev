@@ -1,0 +1,14 @@
+@import "../../../../../../../../styles/colors.scss";
+@import "../../../../../../../../styles/typostyle/font-weights.scss";
+
+.navbarLink {
+  color: $primary-light;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.navbarLink + .navbarLink {
+  margin-left: 2rem;
+}
