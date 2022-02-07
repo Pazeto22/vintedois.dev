@@ -1,0 +1,9 @@
+.navbarMenuContent {
+  display: none;
+
+  @media (min-width: 1151.98px) {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+}

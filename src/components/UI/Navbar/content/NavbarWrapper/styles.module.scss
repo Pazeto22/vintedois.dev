@@ -1,0 +1,9 @@
+.navbarWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 1151.98px) {
+    justify-content: space-between;
+  }
+}
