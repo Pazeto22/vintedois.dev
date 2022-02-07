@@ -7,7 +7,20 @@ function NavbarLogo() {
   return (
     <div>
       <a className={`${s.navbarLogo} fc-p`} href="#">
-        <Image src={Logo} alt="logotipo vintedois.dev" height={48} width={46} />
+        <div
+          style={{
+            height: "32px",
+            width: "32px",
+            position: "relative",
+          }}
+        >
+          <Image
+            src={Logo}
+            alt="logotipo vintedois.dev"
+            layout="fill"
+            objectFit="contain"
+          />
+        </div>
         <span className="body-b fw-900">VinteDois.dev</span>
       </a>
     </div>
