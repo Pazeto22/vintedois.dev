@@ -13,8 +13,10 @@ function Info() {
           Pazeto <span className={s.wave}>👋</span>
         </p>
       </h1>
-      <h2 className="title-h3 fc-p u-none">Desenvolvedor Front-End,</h2>
-      <h3 className="title-h3 fc-p u-none">UI / UX Designer</h3>
+      <h2 className="title-h3 fw-light fc-p u-none">
+        Desenvolvedor Front-End,
+      </h2>
+      <h3 className="title-h3 fw-light fc-p u-none">UI / UX Designer</h3>
     </div>
   );
 }
