@@ -3,15 +3,15 @@ $font-weight-normal: 500;
 $font-weight-bold: 700;
 $font-weight-extra-bold: 900;
 
-.fw-300 {
+.fw-light {
   font-weight: $font-weight-light;
 }
-.fw-500 {
+.fw-normal {
   font-weight: $font-weight-normal;
 }
-.fw-700 {
+.fw-bold {
   font-weight: $font-weight-bold;
 }
-.fw-900 {
+.fw-extra-bold {
   font-weight: $font-weight-extra-bold;
 }

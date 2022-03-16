@@ -3,6 +3,7 @@ import { AppProps } from "next/app";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
+import Navbar from "components/UI/Navbar";
 import "../styles/globals.scss";
 
 import "@fontsource/roboto/300.css";
@@ -21,8 +22,10 @@ function App({ Component, pageProps }: AppProps) {
 
         <title>VinteDois.dev</title>
       </Head>
-
-      <Component {...pageProps} />
+      <Navbar />
+      <div style={{ marginTop: "8rem" }}>
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }

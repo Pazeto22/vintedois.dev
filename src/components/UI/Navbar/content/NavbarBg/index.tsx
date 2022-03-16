@@ -7,7 +7,7 @@ interface NavbarBgProps {
 }
 
 function NavbarBg({ children }: NavbarBgProps) {
-  return <div className={s.navbarBg}>{children}</div>;
+  return <div className={`${s.navbarBg} u-none`}>{children}</div>;
 }
 
 export default NavbarBg;
