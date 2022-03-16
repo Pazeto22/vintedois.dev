@@ -1,4 +1,4 @@
-import * as s from "./styles.module.scss";
+import s from "./styles.module.scss";
 
 import Image from "next/image";
 import ImgBanner from "../../../public/assets/banner/banner.png";
