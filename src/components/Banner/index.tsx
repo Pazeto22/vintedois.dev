@@ -9,7 +9,7 @@ function Banner() {
   return (
     <div className={s.bannerContainer}>
       <Info />
-      <Image src={ImgBanner} alt="shazamkrai" />
+      <Image src={ImgBanner} alt="Banner vinte dois dev" />
     </div>
   );
 }

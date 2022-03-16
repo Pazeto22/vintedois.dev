@@ -1,3 +1,5 @@
+import * as s from "./styles.module.scss";
+
 function Info() {
   return (
     <div>
@@ -7,7 +9,9 @@ function Info() {
       </p>
       <h1 className="title-banner fc-s u-none">
         <p>Gustavo</p>
-        <p>Pazeto 👋</p>
+        <p className={s.waveHolder}>
+          Pazeto <span className={s.wave}>👋</span>
+        </p>
       </h1>
       <h2 className="title-h3 fc-p u-none">Desenvolvedor Front-End,</h2>
       <h3 className="title-h3 fc-p u-none">UI / UX Designer</h3>
