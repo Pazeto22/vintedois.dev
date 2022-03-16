@@ -1,0 +1,10 @@
+.bannerContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (min-width: 1151.98px) {
+    grid-template-columns: 50% 1fr;
+  }
+}
